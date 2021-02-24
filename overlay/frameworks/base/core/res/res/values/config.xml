@@ -407,4 +407,8 @@
     <!-- Whether Hearing Aid profile is supported -->
     <bool name="config_hearing_aid_profile_supported">true</bool>
 
+    <!-- Defines the sysfs attribute path used by the device
+         to enable/disable DC dimming. -->
+    <string name="config_deviceDcDimmingSysfsNode">/sys/class/drm/card0-DSI-1/dimlayer_bl_en</string>
+
 </resources>

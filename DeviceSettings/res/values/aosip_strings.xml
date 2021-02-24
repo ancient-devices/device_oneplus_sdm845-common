@@ -22,6 +22,7 @@
     <string name="hbm_mode_summary">Instantly enable the peak luminance of the display</string>
     <string name="dc_mode_title">DC-Dimming</string>
     <string name="dc_mode_summary">Dim backlight by adjusting DC current drawn to the display</string>
+    <string name="dc_mode_auto_summary">Turn on automatic DC dimming based on sunrise, sunset &amp; brightness</string>
     <string name="dci_mode_title">DCI-P3 wide colour gamut mode</string>
     <string name="wide_mode_title">Wide colour mode</string>
     <string name="panel_category_title">Panel modes</string>
