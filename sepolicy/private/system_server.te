@@ -1,1 +1,5 @@
+# DC Dimming
+allow system_server sysfs_dc_dim:file rw_file_perms;
+
+# Smart charging
 allow system_server sysfs_battery_supply:file { getattr open read write };

@@ -38,6 +38,15 @@
                     android:targetClass="org.lineageos.settings.doze.DozeSettingsActivity"/>
         </Preference>
 
+        <Preference
+            android:key="dc_dim"
+            android:enabled="true"
+            android:icon="@drawable/ic_dc_mode_icon"
+            android:title="@string/dc_mode_title"
+            android:summary="@string/dc_mode_auto_summary">
+            <intent android:action="android.settings.DC_DIMMING_SETTINGS" />
+        </Preference>
+
         <SwitchPreference
             android:key="hbm"
             android:icon="@drawable/ic_hbm_mode_icon"
@@ -47,6 +56,7 @@
         <SwitchPreference
             android:key="dc"
             android:icon="@drawable/ic_dc_mode_icon"
+            android:visible="false"
             android:summary="@string/dc_mode_summary"
             android:title="@string/dc_mode_title" />
 
