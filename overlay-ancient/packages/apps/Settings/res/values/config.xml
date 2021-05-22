@@ -12,11 +12,19 @@
 -->
 
 <resources>
+     <!-- Smart Charging -->
+    <bool name="config_supportSmartCharging">true</bool>
 
+    <!-- Battery Health -->
+    <bool name="config_supportBatteryHealth">false</bool>
+
+    <!-- Ultra Power Saving -->
+    <bool name="config_supportUltraPowerSaving">true</bool>
+    
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.lineageos.settings.doze/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
     <!-- Whether to show Selinux status in Settings -->
-    <bool name="config_showSelinuxStatus">false</bool>
+    <bool name="config_showSelinuxStatus">true</bool>
 
 </resources>
